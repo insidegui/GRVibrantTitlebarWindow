@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28132D8619A9200E00736410 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28132D8519A9200E00736410 /* main.m */; };
+		28132D8919A9200E00736410 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28132D8819A9200E00736410 /* ViewController.m */; };
+		28132D8C19A9200E00736410 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28132D8B19A9200E00736410 /* AppDelegate.m */; };
+		28132D8E19A9200E00736410 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28132D8D19A9200E00736410 /* Images.xcassets */; };
+		28132D9119A9200E00736410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28132D8F19A9200E00736410 /* Main.storyboard */; };
+		28132DAF19A9204200736410 /* GRSeparatorLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28132DA819A9204200736410 /* GRSeparatorLineView.m */; };
+		28132DB019A9204200736410 /* GRVibrantTitlebarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28132DAA19A9204200736410 /* GRVibrantTitlebarView.m */; };
+		28132DB119A9204200736410 /* GRVibrantTitlebarWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 28132DAC19A9204200736410 /* GRVibrantTitlebarWindow.m */; };
+		28132DB219A9204200736410 /* GRVibrantTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28132DAE19A9204200736410 /* GRVibrantTitleView.m */; };
+		28132DB519A9226100736410 /* NSColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 28132DB419A9226100736410 /* NSColor+Random.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28132D8019A9200E00736410 /* Vibrant Titlebar Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vibrant Titlebar Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28132D8419A9200E00736410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28132D8519A9200E00736410 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28132D8719A9200E00736410 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28132D8819A9200E00736410 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28132D8A19A9200E00736410 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28132D8B19A9200E00736410 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28132D8D19A9200E00736410 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		28132D9019A9200E00736410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28132DA719A9204200736410 /* GRSeparatorLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSeparatorLineView.h; sourceTree = "<group>"; };
+		28132DA819A9204200736410 /* GRSeparatorLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSeparatorLineView.m; sourceTree = "<group>"; };
+		28132DA919A9204200736410 /* GRVibrantTitlebarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRVibrantTitlebarView.h; sourceTree = "<group>"; };
+		28132DAA19A9204200736410 /* GRVibrantTitlebarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRVibrantTitlebarView.m; sourceTree = "<group>"; };
+		28132DAB19A9204200736410 /* GRVibrantTitlebarWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRVibrantTitlebarWindow.h; sourceTree = "<group>"; };
+		28132DAC19A9204200736410 /* GRVibrantTitlebarWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRVibrantTitlebarWindow.m; sourceTree = "<group>"; };
+		28132DAD19A9204200736410 /* GRVibrantTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRVibrantTitleView.h; sourceTree = "<group>"; };
+		28132DAE19A9204200736410 /* GRVibrantTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRVibrantTitleView.m; sourceTree = "<group>"; };
+		28132DB319A9226100736410 /* NSColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Random.h"; sourceTree = "<group>"; };
+		28132DB419A9226100736410 /* NSColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Random.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28132D7D19A9200E00736410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28132D7719A9200E00736410 = {
+			isa = PBXGroup;
+			children = (
+				28132D8219A9200E00736410 /* Vibrant Titlebar Demo */,
+				28132D8119A9200E00736410 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28132D8119A9200E00736410 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28132D8019A9200E00736410 /* Vibrant Titlebar Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28132D8219A9200E00736410 /* Vibrant Titlebar Demo */ = {
+			isa = PBXGroup;
+			children = (
+				28132DB319A9226100736410 /* NSColor+Random.h */,
+				28132DB419A9226100736410 /* NSColor+Random.m */,
+				28132DA619A9204200736410 /* GRVibrantTitlebarWindow */,
+				28132D8719A9200E00736410 /* ViewController.h */,
+				28132D8819A9200E00736410 /* ViewController.m */,
+				28132D8A19A9200E00736410 /* AppDelegate.h */,
+				28132D8B19A9200E00736410 /* AppDelegate.m */,
+				28132D8D19A9200E00736410 /* Images.xcassets */,
+				28132D8F19A9200E00736410 /* Main.storyboard */,
+				28132D8319A9200E00736410 /* Supporting Files */,
+			);
+			path = "Vibrant Titlebar Demo";
+			sourceTree = "<group>";
+		};
+		28132D8319A9200E00736410 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28132D8419A9200E00736410 /* Info.plist */,
+				28132D8519A9200E00736410 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28132DA619A9204200736410 /* GRVibrantTitlebarWindow */ = {
+			isa = PBXGroup;
+			children = (
+				28132DA719A9204200736410 /* GRSeparatorLineView.h */,
+				28132DA819A9204200736410 /* GRSeparatorLineView.m */,
+				28132DA919A9204200736410 /* GRVibrantTitlebarView.h */,
+				28132DAA19A9204200736410 /* GRVibrantTitlebarView.m */,
+				28132DAB19A9204200736410 /* GRVibrantTitlebarWindow.h */,
+				28132DAC19A9204200736410 /* GRVibrantTitlebarWindow.m */,
+				28132DAD19A9204200736410 /* GRVibrantTitleView.h */,
+				28132DAE19A9204200736410 /* GRVibrantTitleView.m */,
+			);
+			path = GRVibrantTitlebarWindow;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28132D7F19A9200E00736410 /* Vibrant Titlebar Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28132DA019A9200E00736410 /* Build configuration list for PBXNativeTarget "Vibrant Titlebar Demo" */;
+			buildPhases = (
+				28132D7C19A9200E00736410 /* Sources */,
+				28132D7D19A9200E00736410 /* Frameworks */,
+				28132D7E19A9200E00736410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vibrant Titlebar Demo";
+			productName = "Vibrant Titlebar Demo";
+			productReference = 28132D8019A9200E00736410 /* Vibrant Titlebar Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28132D7819A9200E00736410 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Guilherme Rambo";
+				TargetAttributes = {
+					28132D7F19A9200E00736410 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 28132D7B19A9200E00736410 /* Build configuration list for PBXProject "Vibrant Titlebar Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28132D7719A9200E00736410;
+			productRefGroup = 28132D8119A9200E00736410 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28132D7F19A9200E00736410 /* Vibrant Titlebar Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28132D7E19A9200E00736410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28132D8E19A9200E00736410 /* Images.xcassets in Resources */,
+				28132D9119A9200E00736410 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28132D7C19A9200E00736410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28132DB019A9204200736410 /* GRVibrantTitlebarView.m in Sources */,
+				28132DB219A9204200736410 /* GRVibrantTitleView.m in Sources */,
+				28132D8919A9200E00736410 /* ViewController.m in Sources */,
+				28132DB119A9204200736410 /* GRVibrantTitlebarWindow.m in Sources */,
+				28132DAF19A9204200736410 /* GRSeparatorLineView.m in Sources */,
+				28132D8619A9200E00736410 /* main.m in Sources */,
+				28132D8C19A9200E00736410 /* AppDelegate.m in Sources */,
+				28132DB519A9226100736410 /* NSColor+Random.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28132D8F19A9200E00736410 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28132D9019A9200E00736410 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28132D9E19A9200E00736410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		28132D9F19A9200E00736410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		28132DA119A9200E00736410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Vibrant Titlebar Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28132DA219A9200E00736410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Vibrant Titlebar Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28132D7B19A9200E00736410 /* Build configuration list for PBXProject "Vibrant Titlebar Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28132D9E19A9200E00736410 /* Debug */,
+				28132D9F19A9200E00736410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28132DA019A9200E00736410 /* Build configuration list for PBXNativeTarget "Vibrant Titlebar Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28132DA119A9200E00736410 /* Debug */,
+				28132DA219A9200E00736410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28132D7819A9200E00736410 /* Project object */;
+}
