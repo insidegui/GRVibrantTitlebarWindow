@@ -8,8 +8,8 @@ See the included demo for an example of how to use It. It's simple :)
 
 ## Screenshots
 
-![screenshot](https://raw.github.com/insidegui/GRVibrantTitlebarWindow/master/vibrantTitlebarWindowDark.png)
-![screenshot](https://raw.github.com/insidegui/GRVibrantTitlebarWindow/master/vibrantTitlebarWindowLight.png)
+![screenshot](https://raw.github.com/insidegui/GRVibrantTitlebarWindow/master/screenshots/vibrantTitlebarWindowDark.png)
+![screenshot](https://raw.github.com/insidegui/GRVibrantTitlebarWindow/master/screenshots/vibrantTitlebarWindowLight.png)
 
 ## Contributing
 
